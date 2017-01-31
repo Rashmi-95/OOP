@@ -8,5 +8,5 @@ class King extends Person {
       console.log(`I am king ${this.name}, ruler of the kingdom`);
   }
 }
-var king =  new King('Akbar', 40)
+let king =  new King('Akbar', 40)
 king.introduction();

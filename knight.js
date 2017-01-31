@@ -8,5 +8,5 @@ class Knight extends Person {
        console.log(`I am ser ${this.name}`);
   }
 }
-var knight= new Knight ('Alibaba', 30)
+let knight= new Knight ('Alibaba', 30)
 knight.introduction();
